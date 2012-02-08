@@ -9,5 +9,7 @@ Classes
 
 ### DigitalOut
 
+### PwmOut 
+
 ### AnalogIn
 

@@ -8,6 +8,7 @@
 
 AnalogIn	KEYWORD1
 DigitalOut	KEYWORD1
+PwmOut		KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)

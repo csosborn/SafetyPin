@@ -3,5 +3,6 @@
 
 #include "AnalogIn.h"
 #include "DigitalOut.h"
+#include "PwmOut.h"
 
 #endif
