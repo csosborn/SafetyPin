@@ -6,6 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
+SafetyPin	KEYWORD1
 AnalogIn	KEYWORD1
 DigitalOut	KEYWORD1
 PwmOut		KEYWORD1
@@ -17,6 +18,7 @@ PwmOut		KEYWORD1
 read	KEYWORD2
 high	KEYWORD2
 low		KEYWORD2
+write	KEYWORK2
 
 #######################################
 # Constants (LITERAL1)

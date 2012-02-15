@@ -3,13 +3,21 @@
 
 DigitalOut::DigitalOut(byte pin): Pin(pin) {
   pinMode(m_pin, OUTPUT);
+  write(false);
 }
 
 void DigitalOut::low() {
-  digitalWrite(m_pin, LOW);
+  write(false);
 }
   
 void DigitalOut::high() {
-  digitalWrite(m_pin, HIGH);
+  write(true);
 }
 
+void DigitalOut::write(bool value) {
+  digitalWrite(m_pin, value);
+}
+
+bool DigitalOut::read() {
+	return digitalRead(m_pin);
+}

@@ -9,13 +9,15 @@
  *
  * Pin subclass representing a specific output pin that may be driven either high or low.
  */
-class DigitalOut : public Pin {
+class DigitalOut : public Pin {	
   public:
     
     DigitalOut(byte pin);
 
     void low();
     void high();
+	void write(bool value);
+	bool read();
 };
 
 #endif
