@@ -1,7 +1,7 @@
 #ifndef pwm_out_h
 #define pwm_out_h
 
-#include "WProgram.h"
+#include "Arduino.h"
 #include "Pin.h"
 
 /**

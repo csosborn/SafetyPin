@@ -1,7 +1,7 @@
 #ifndef pin_h
 #define pin_h
 
-#include "WProgram.h"
+#include "Arduino.h"
 
 /**
  * Pin

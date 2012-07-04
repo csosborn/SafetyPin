@@ -1,4 +1,4 @@
-#include "WProgram.h"
+#include "Arduino.h"
 #include "AnalogIn.h"
 
 AnalogIn::AnalogIn(byte pin): Pin(pin) {

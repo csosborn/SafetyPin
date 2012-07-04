@@ -1,7 +1,7 @@
 #ifndef digital_out_h
 #define digital_out_h
 
-#include "WProgram.h"
+#include "Arduino.h"
 #include "Pin.h"
 
 /**

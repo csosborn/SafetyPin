@@ -1,4 +1,4 @@
-#include "WProgram.h"
+#include "Arduino.h"
 #include "PwmOut.h"
 
 PwmOut::PwmOut(byte pin): Pin(pin) {

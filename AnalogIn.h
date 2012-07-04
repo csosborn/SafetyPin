@@ -1,7 +1,7 @@
 #ifndef analog_in_h
 #define analog_in_h
 
-#include "WProgram.h"
+#include "Arduino.h"
 #include "Pin.h"
 
 /**

@@ -1,4 +1,4 @@
-#include "WProgram.h"
+#include "Arduino.h"
 #include "DigitalOut.h"
 
 DigitalOut::DigitalOut(byte pin): Pin(pin) {
