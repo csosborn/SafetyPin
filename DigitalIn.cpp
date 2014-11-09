@@ -14,6 +14,6 @@ DigitalIn::DigitalIn(byte pin, bool enablePullUp): Pin(pin) {
 	}
 }
 
-bool DigitalIn::read() {
+bool DigitalIn::read() const {
   return digitalRead(m_pin);
 }

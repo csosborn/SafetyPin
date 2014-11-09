@@ -15,7 +15,7 @@ class DigitalIn : public Pin {
     DigitalIn(byte pin);
     DigitalIn(byte pin, bool enablePullUp);
 
-    bool read();
+    bool read() const;
 };
 
 #endif
